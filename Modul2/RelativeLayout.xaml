@@ -40,5 +40,53 @@
                 Type=RelativeToView,ElementName=redBox2, Property=Width,Factor=.5,Constant=0}" 
             RelativeLayout.HeightConstraint="{ConstraintExpression 
                 Type=RelativeToView,ElementName=redBox2, Property=Height,Factor=.5,Constant=0}" /> 
+
+        <BoxView Color="Red" x:Name="redBox3" 
+            RelativeLayout.YConstraint="
+                {ConstraintExpression
+                    Type=RelativeToView, 
+                    ElementName=redBox2,
+                    Property=Height,
+                    Factor=1.3,
+                    Constant=0}" 
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+                ElementName=redBox2, Property=Width, Factor=1.2, Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression 
+                Type=RelativeToParent,Property=Width,Factor=.3,Constant=0}" 
+            RelativeLayout.HeightConstraint="{ConstraintExpression 
+                Type=RelativeToParent,Property=Height,Factor=.1,Constant=0}" /> 
+        
+        <BoxView Color="Black" 
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=Y,Factor=1,Constant=30}" 
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=X,Factor=1,Constant=5}" 
+            RelativeLayout.WidthConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, Property=Width,Factor=.3,Constant=0}" 
+            RelativeLayout.HeightConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, Property=Height,Factor=.5,Constant=0}" /> 
+
+        <BoxView Color="Black" 
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=Y,Factor=1,Constant=30}" 
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=X,Factor=1,Constant=73}" 
+            RelativeLayout.WidthConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, Property=Width,Factor=.3,Constant=0}" 
+            RelativeLayout.HeightConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, Property=Height,Factor=.5,Constant=0}" />
+
+        <BoxView Color="Black" 
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=Y,Factor=1,Constant=100}" 
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, 
+                ElementName=redBox3,Property=X,Factor=1,Constant=0}" 
+            RelativeLayout.WidthConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, 
+                Property=Width,
+                Factor=1,
+                Constant=100}" 
+            RelativeLayout.HeightConstraint="{ConstraintExpression 
+                Type=RelativeToView,ElementName=redBox3, Property=Height,Factor=.5,Constant=0}" /> 
     </RelativeLayout>
 </ContentPage>
