@@ -33,6 +33,9 @@
     <EmbeddedResource Include="SampleStackLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="AbsoluteLayout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -44,6 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleStackLayout.xaml.cs">
       <DependentUpon>SampleStackLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoluteLayout.xaml.cs">
+      <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
