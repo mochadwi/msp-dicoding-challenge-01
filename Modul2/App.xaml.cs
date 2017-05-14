@@ -8,7 +8,7 @@ namespace Modul2
         {
             InitializeComponent();
 
-            MainPage = new RelativeLayout();
+            MainPage = new GridLayout();
         }
 
         protected override void OnStart()
