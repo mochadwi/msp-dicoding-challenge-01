@@ -8,7 +8,7 @@ namespace Modul2
         {
             InitializeComponent();
 
-            MainPage = new Modul2Page();
+            MainPage = new SampleStackLayout();
         }
 
         protected override void OnStart()
