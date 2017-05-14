@@ -8,7 +8,7 @@ namespace Modul2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new KalkulatorPage();
         }
 
         protected override void OnStart()
