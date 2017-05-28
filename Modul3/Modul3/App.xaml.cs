@@ -8,7 +8,7 @@ namespace Modul3
         {
             InitializeComponent();
 
-            MainPage = new BindingListString();
+            MainPage = new BindingToDataModel();
         }
 
         protected override void OnStart()
