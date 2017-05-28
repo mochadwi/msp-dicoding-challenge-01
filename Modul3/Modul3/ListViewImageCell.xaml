@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Modul3.ListViewImageCell">
-    <ListView x:Name="listImage" ItemTapped="Handle_ItemTapped">
+    <ListView x:Name="listImage" ItemsSource="{Binding ShowItems}" ItemTapped="Handle_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ImageCell ImageSource="{Binding ImageSource}" Text="{Binding Title}" 

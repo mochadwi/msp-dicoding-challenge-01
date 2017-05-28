@@ -14,6 +14,14 @@ namespace Modul3
             BindingContext = new ImagesViewModel();
         }
 
+        private async void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+            ListItem item = (ListItem)e.Item;
+            await DisplayAlert("Tapped", item.Title.ToString() + " was selected",
+                               "OK");
+            ((ListView)sender).SelectedItem = null;
+        }
+
         public class ImagesViewModel : BindableObject
         {
             // Fields

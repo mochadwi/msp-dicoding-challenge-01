@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Modul3.Droid</RootNamespace>
     <AssemblyName>Modul3.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
