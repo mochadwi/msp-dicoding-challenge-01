@@ -6,7 +6,7 @@
                 <ViewCell>
                     <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="25,10,55,15">
                         <!-- Left Side -->
-                        <StackLayout HorizontalOptions="Start" Orientation="Vertical">
+                        <StackLayout HorizontalOptions="StartAndExpand" Orientation="Vertical">
                             <Label HorizontalOptions="Start" FontSize="20" FontAttributes="Bold" TextColor="White" Text="{Binding Title}" />
                             <Label HorizontalOptions="Start" FontSize="12" FontAttributes="Bold" TextColor="White" Text="{Binding Description}" />
                         </StackLayout>
