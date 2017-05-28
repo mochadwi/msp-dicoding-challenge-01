@@ -5,18 +5,18 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Latihan1.iOS
+namespace Modul3.iOS
 {
-	[Register("AppDelegate")]
-	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
-	{
-		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
-		{
-			global::Xamarin.Forms.Forms.Init();
+    [Register("AppDelegate")]
+    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+    {
+        public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+        {
+            global::Xamarin.Forms.Forms.Init();
 
-			LoadApplication(new App());
+            LoadApplication(new App());
 
-			return base.FinishedLaunching(app, options);
-		}
-	}
+            return base.FinishedLaunching(app, options);
+        }
+    }
 }
