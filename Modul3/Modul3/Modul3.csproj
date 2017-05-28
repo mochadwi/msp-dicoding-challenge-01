@@ -36,6 +36,9 @@
     <EmbeddedResource Include="BindingToDataModel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListViewImageCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -51,6 +54,9 @@
     <Compile Include="Model\ListItem.cs" />
     <Compile Include="BindingToDataModel.xaml.cs">
       <DependentUpon>BindingToDataModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewImageCell.xaml.cs">
+      <DependentUpon>ListViewImageCell.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

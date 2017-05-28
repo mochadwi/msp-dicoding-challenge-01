@@ -8,7 +8,7 @@ namespace Modul3
         {
             InitializeComponent();
 
-            MainPage = new BindingToDataModel();
+            MainPage = new ListViewImageCell();
         }
 
         protected override void OnStart()
