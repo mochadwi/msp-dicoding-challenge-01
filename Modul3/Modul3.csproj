@@ -39,6 +39,9 @@
     <EmbeddedResource Include="ListViewImageCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListViewCustom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -57,6 +60,9 @@
     </Compile>
     <Compile Include="ListViewImageCell.xaml.cs">
       <DependentUpon>ListViewImageCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewCustom.xaml.cs">
+      <DependentUpon>ListViewCustom.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

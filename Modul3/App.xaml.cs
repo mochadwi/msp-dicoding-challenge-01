@@ -8,7 +8,7 @@ namespace Modul3
         {
             InitializeComponent();
 
-            MainPage = new ListViewImageCell();
+            MainPage = new ListViewCustom();
         }
 
         protected override void OnStart()
