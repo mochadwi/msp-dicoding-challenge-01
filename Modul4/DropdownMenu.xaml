@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Modul4.DropdownMenu">
+    <!--  Toolbar  -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="btnHome" Text="Home" Order="Secondary" Clicked="Handle_Clicked" CommandParameter="NavigationPage1" />
+        <ToolbarItem x:Name="btnSecond" Text="Second" Order="Secondary" Clicked="Handle_Clicked" CommandParameter="NavigationPage2" />
+    </ContentPage.ToolbarItems>
+    <!--  Actual Content  -->
+    <ContentPage.Content>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,7 @@ namespace Modul4
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new NavigationPage1());
+            MainPage = new NavigationPage(new DropdownMenu());
         }
 
         protected override void OnStart()
