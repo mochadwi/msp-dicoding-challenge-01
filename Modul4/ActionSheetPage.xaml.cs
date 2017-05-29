@@ -12,13 +12,13 @@ namespace Modul4
             InitializeComponent();
         }
 
-        async void OnActionSheetSimpleClicked(object sender, EventArgs e)
+        private async void OnActionSheetSimpleClicked(object sender, EventArgs e)
         {
-            var action = await DisplayActionSheet("ActionSheet: Send to?", "Cancel", null, "Email", "Twitter", "Facebook");
+            await DisplayActionSheet("ActionSheet: Send to?", "Cancel", null, "Email", "Twitter", "Facebook");
         }
-        async void OnActionSheetCancelDeleteClicked(object sender, EventArgs e)
+        private async void OnActionSheetCancelDeleteClicked(object sender, EventArgs e)
         {
-            var action = await DisplayActionSheet("ActionSheet: SavePhoto?", "Cancel", "Delete", "Photo Roll", "Email");
+            await DisplayActionSheet("ActionSheet: SavePhoto?", "Cancel", "Delete", "Photo Roll", "Email");
         }
     }
 }

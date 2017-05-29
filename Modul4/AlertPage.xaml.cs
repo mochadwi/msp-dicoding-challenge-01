@@ -12,14 +12,14 @@ namespace Modul4
             InitializeComponent();
         }
 
-        async void OnAlertSimpleClicked(object sender, System.EventArgs e)
+        private async void OnAlertSimpleClicked(object sender, System.EventArgs e)
         {
             await DisplayAlert("Alert", "You have been alerted", "OK");
         }
 
-        async void OnAlertYesNoClicked(object sender, System.EventArgs e)
+        private async void OnAlertYesNoClicked(object sender, System.EventArgs e)
         {
-            var answer = await DisplayAlert("Question?", "Would you like to play game?",
+            await DisplayAlert("Question?", "Would you like to play game?",
                                             "Yes", "No");
         }
     }
