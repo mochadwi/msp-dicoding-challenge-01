@@ -39,6 +39,12 @@
     <EmbeddedResource Include="DropdownMenu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModalPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModalSecondPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -56,6 +62,12 @@
     </Compile>
     <Compile Include="DropdownMenu.xaml.cs">
       <DependentUpon>DropdownMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModalPage.xaml.cs">
+      <DependentUpon>ModalPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModalSecondPage.xaml.cs">
+      <DependentUpon>ModalSecondPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
