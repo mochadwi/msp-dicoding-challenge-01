@@ -8,7 +8,7 @@ namespace Submission2_BeratIdeal
         {
             InitializeComponent();
 
-            MainPage = new Submission2_BeratIdealPage();
+            MainPage = new DashboardPage();
         }
 
         protected override void OnStart()
