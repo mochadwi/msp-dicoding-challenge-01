@@ -17,7 +17,7 @@ namespace Modul4
         // Button event to next page
         private async void BtnNext_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NavigationPage2());
+            await Navigation.PushAsync(new NavigationPage2("Mochamad Iqbal Dwi Cahyo"));
         }
     }
 }

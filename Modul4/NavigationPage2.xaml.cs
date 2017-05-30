@@ -7,9 +7,10 @@ namespace Modul4
 {
     public partial class NavigationPage2 : ContentPage
     {
-        public NavigationPage2()
+        public NavigationPage2(string param)
         {
             InitializeComponent();
+            lblParam.Text = "Nama anda: " + param;
             btnPrevious.Clicked += BtnPrevious_Clicked;
         }
 

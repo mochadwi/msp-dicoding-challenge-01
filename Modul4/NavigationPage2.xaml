@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Modul4.NavigationPage2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Menu Page #02" FontSize="40">
+            <Label x:Name="lblParam" Text="Menu Page #02" FontSize="40">
             </Label>
             <Button Text="Go To Previous Page" x:Name="btnPrevious">
             </Button>
