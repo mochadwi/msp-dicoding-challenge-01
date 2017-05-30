@@ -7,7 +7,7 @@ namespace Modul4
         public App()
         {
             InitializeComponent();
-
+            Application.Current.Properties["id"] = "123456";
             MainPage = new NavigationPage(new NavigationPage1());
         }
 

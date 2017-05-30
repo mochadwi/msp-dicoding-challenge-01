@@ -10,7 +10,8 @@ namespace Modul4
         public NavigationPage2(string param)
         {
             InitializeComponent();
-            lblParam.Text = "Nama anda: " + param;
+            lblParam.Text = "Nama anda: " + param + "\n ID: " +
+                (string)Application.Current.Properties["id"];
             btnPrevious.Clicked += BtnPrevious_Clicked;
         }
 
