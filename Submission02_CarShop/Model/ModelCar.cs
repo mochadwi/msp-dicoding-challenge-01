@@ -1,17 +1,17 @@
 ﻿using System;
 namespace Submission02_CarShop.Model
 {
-    public class Car
+    public class ModelCar
     {
         private string _name, _info, _imgSource;
         private int _price;
 
-        public Car()
+        public ModelCar()
         {
         }
 
 		// Constructor
-        public Car(string name, string info, string imgSource, int price)
+        public ModelCar(string name, string info, string imgSource, int price)
         {
             Name = name;
             Info = info;
