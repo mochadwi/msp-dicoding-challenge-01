@@ -3,11 +3,11 @@
     <StackLayout Margin="16">
         <!--      Input      -->
         <Label Text="Tinggi Badan (cm):" TextColor="White" />
-        <Entry x:Name="entHeight" Placeholder="Contoh: 180" TextColor="Gray" />
+        <Entry x:Name="entHeight" Placeholder="Contoh: 180" PlaceholderColor="Gray" TextColor="Gray" />
         <Label Text="Berat Badan (kg):" TextColor="White" />
-        <Entry x:Name="entWeight" Placeholder="Contoh: 56" TextColor="Gray" />
-        <Button Text="Hitung Berat Ideal Laki-laki" />
-        <Button Text="Hitung Berat Ideal Perempuan" />
+        <Entry x:Name="entWeight" Placeholder="Contoh: 56" PlaceholderColor="Gray" TextColor="Gray" />
+        <Button Text="Hitung Berat Ideal Laki-laki" Clicked="Handle_MaleIdealMess" />
+        <Button Text="Hitung Berat Ideal Perempuan" Clicked="Handle_FemaleIdealMess" />
         <!--     Result       -->
         <Label Text="Berat Badan Ideal (Brocha):" TextColor="White" />
         <Label x:Name="lblBrochaValue" Text="" TextColor="Gray" />
