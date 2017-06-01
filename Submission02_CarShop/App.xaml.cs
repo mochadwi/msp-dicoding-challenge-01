@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using Submission02_CarShop.View;
+using Xamarin.Forms;
 
 namespace Submission02_CarShop
 {
@@ -8,7 +9,7 @@ namespace Submission02_CarShop
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new View.MainPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

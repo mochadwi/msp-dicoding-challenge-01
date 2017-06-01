@@ -13,7 +13,7 @@ namespace Submission02_CarShop.ViewModel
         {
             cars = new List<ModelCar>
             {
-                new ModelCar { ImgSource="calya.jpg", Name="Calya", Info="Calya car endurance, 3 seats available",  Price=24500000},
+                new ModelCar { ImgSource="cylia.jpg", Name="Cylia", Info="Cylia car endurance, 3 seats available",  Price=24500000},
                 new ModelCar { ImgSource="honda.jpg", Name="Honda", Info="Honda car endurance, 4 seats available",  Price=35300000},
                 new ModelCar { ImgSource="toyota.jpg", Name="Toyota", Info="Toyota car endurance, 6 seats available",  Price=45500000}
             };
@@ -28,7 +28,7 @@ namespace Submission02_CarShop.ViewModel
             set
             {
                 cars = value;
-                OnPropertyChanged("ShowItems");
+                OnPropertyChanged("Cars");
             }
         }
     }

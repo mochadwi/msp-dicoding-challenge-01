@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission02_CarShop.View.DetailCar">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission02_CarShop.View.DetailCar" Title="{Binding Name}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Selamat Datang" />
-            <Button Clicked="BackToPrevious" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Margin="16">
+                <Label Text="{Binding Name}" FontSize="24" FontAttributes="Bold" />
+                <Image Source="{Binding ImgSource}" />
+                <Label Text="Price:" FontSize="20" FontAttributes="Bold" />
+                <Label Text="{Binding Price, StringFormat='Rp. {0:0}'}" />
+                <Label Text="Info:" FontSize="20" FontAttributes="Bold" />
+                <Label Text="{Binding Info}" LineBreakMode="WordWrap" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

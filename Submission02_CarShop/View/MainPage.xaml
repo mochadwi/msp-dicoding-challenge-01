@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission02_CarShop.View.MainPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission02_CarShop.View.MainPage" Title="Car Shop">
     <ContentPage.Content>
         <ListView x:Name="lvCars" ItemsSource="{Binding Cars}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell ImageSource="{Binding ImgSource}" Text="{Binding Name}" Detail="{Binding Info}" />
+                    <ImageCell ImageSource="{Binding ImgSource}" Text="{Binding Name}" Detail="{Binding Price, StringFormat='Angsuran mulai dari Rp. {0:0}'}" />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -12,13 +12,13 @@ namespace Submission02_CarShop.View
         {
             InitializeComponent();
             ViewModel.VMCar vmCar = new ViewModel.VMCar();
-            BindingContext = vmCar;
+            this.BindingContext = vmCar;
 
             lvCars.ItemTapped += async (sender, e) => 
             {
                 ModelCar car = (ModelCar)e.Item;
                 await Task.Yield();
-                await Navigation.PushAsync(new DetailCar(), true);
+                await Navigation.PushAsync(new DetailCar(car), true);
                 ((ListView)sender).SelectedItem = null;
             };
         }
