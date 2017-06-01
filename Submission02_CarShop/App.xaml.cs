@@ -8,7 +8,7 @@ namespace Submission02_CarShop
         {
             InitializeComponent();
 
-            MainPage = new Submission02_CarShopPage();
+            MainPage = new NavigationPage(new View.MainPage());
         }
 
         protected override void OnStart()
