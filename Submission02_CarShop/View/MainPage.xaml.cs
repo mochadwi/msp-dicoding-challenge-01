@@ -18,7 +18,7 @@ namespace Submission02_CarShop.View
             {
                 ModelCar car = (ModelCar)e.Item;
                 await Task.Yield();
-                await Navigation.PushAsync();
+                await Navigation.PushAsync(new DetailCar(), true);
                 ((ListView)sender).SelectedItem = null;
             };
         }
