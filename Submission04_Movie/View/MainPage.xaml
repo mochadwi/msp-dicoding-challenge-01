@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission04_Movie.View.MainPage"
+    Title="Cinema21 List">
+	<ContentPage.Content>
+        <ListView x:Name="listView" ItemsSource="{Binding MovieList}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell ImageSource="{Binding ImageUrl}" 
+                               Text="{Binding Title}"
+                               Detail="{Binding PubDate}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

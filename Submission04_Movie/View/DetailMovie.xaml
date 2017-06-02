@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Submission04_Movie.View.DetailMovie" Title="Detail Movie">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+                <Image x:Name="logo" Source="{Binding ImageUrl}" WidthRequest="200" HeightRequest="200">
+                </Image>
+                <Label x:Name="lblNama" Margin="0,10,0,0" FontSize="24" Text="{Binding Title}" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="Info : " Margin="0,10,0,0" FontAttributes="Bold" FontSize="20" />
+                <Label LineBreakMode="WordWrap" x:Name="lblInfo" Margin="0,8,0,0 " Text="{Binding Description}" />
+                <Button x:Name="btnBack" Text="Kembali" Margin="0,25,0,0" BackgroundColor="Blue" TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
