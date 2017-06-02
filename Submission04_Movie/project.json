@@ -1,0 +1,10 @@
+﻿{
+  "dependencies": {
+    "System.Linq.Expressions": "4.3.0",
+    "System.Xml.XDocument": "4.3.0",
+    "Xamarin.Forms": "2.3.4.247"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  }
+}
