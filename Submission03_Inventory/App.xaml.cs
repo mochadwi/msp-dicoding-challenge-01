@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using Submission03_Inventory.View;
+using Xamarin.Forms;
 
 namespace Submission03_Inventory
 {
@@ -8,7 +9,7 @@ namespace Submission03_Inventory
         {
             InitializeComponent();
 
-            MainPage = new Submission03_InventoryPage();
+            MainPage = new DashboardPage();
         }
 
         protected override void OnStart()
