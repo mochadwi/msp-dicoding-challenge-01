@@ -12,5 +12,10 @@ namespace Submission02_CarShop.View
             InitializeComponent();
             this.BindingContext = item;
         }
+
+        private async void BackToPrevious(object sender, System.EventArgs e)
+        {
+            await Navigation.PopAsync(true);
+        }
     }
 }

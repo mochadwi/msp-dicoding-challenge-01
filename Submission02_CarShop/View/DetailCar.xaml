@@ -9,6 +9,7 @@
                 <Label Text="{Binding Price, StringFormat='Rp. {0:0}'}" />
                 <Label Text="Info:" FontSize="20" FontAttributes="Bold" />
                 <Label Text="{Binding Info}" LineBreakMode="WordWrap" />
+                <Button Text="Back to Dashboard" Clicked="BackToPrevious" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
